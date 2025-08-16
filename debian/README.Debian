@@ -1,0 +1,7 @@
+
+Debian bookworm packaging is based on Ubuntu packaging by 
+Jasem Mutlaq <mutlaqja@ikarustech.com>. Removed Github workflows.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>
+
+

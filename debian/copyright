@@ -1,0 +1,1499 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: libindi
+Upstream-Contact: Jasem Mutlaq <mutlaqja@ikarustech.com>
+Source: https://github.com/indilib/indi
+
+Files: *
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: debian/*
+Copyright: 2011, Pino Toscano <pino@debian.org>
+ 2025, Matteo Piscitelli <matteo@matteopiscitelli.it>
+
+Files: COPYRIGHT
+Copyright: 1996-1998, Patrick Reynolds
+License: BSD-3-clause and/or BSD-3-clause and/or GPL-2+ and/or LGPL-2 and/or LGPL-2.1
+
+Files: drivers/agent/*
+Copyright: 2017, 2018, Marco Gulino <marco.gulino@gmai.com>
+ 2013-2016, CloudMakers, s. r. o.
+License: LGPL-2
+
+Files: drivers/auxiliary/*
+Copyright: 2012-2020, 2022, 2024, Jasem Mutlaq.
+License: GPL-2+
+
+Files: drivers/auxiliary/Excalibur.cpp
+  drivers/auxiliary/Excalibur.h
+  drivers/auxiliary/gemini_flatpanel.cpp
+  drivers/auxiliary/gemini_flatpanel.h
+  drivers/auxiliary/pegasus_spb.cpp
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: drivers/auxiliary/STAR2000.cpp
+  drivers/auxiliary/STAR2000.h
+  drivers/auxiliary/STAR2kdriver.c
+  drivers/auxiliary/STAR2kdriver.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: GPL-2+
+
+Files: drivers/auxiliary/alto.cpp
+  drivers/auxiliary/alto.h
+  drivers/auxiliary/giotto.cpp
+  drivers/auxiliary/giotto.h
+  drivers/auxiliary/ipx800v4.cpp
+  drivers/auxiliary/ipx800v4.h
+Copyright: 2014, 2015, 2017, 2018, 2022-2025, Jasem Mutlaq
+License: LGPL-2.1+
+
+Files: drivers/auxiliary/cheapodc.cpp
+  drivers/auxiliary/cheapodc.h
+Copyright: 2024, Stephen Hillier
+License: LGPL-2.1+
+
+Files: drivers/auxiliary/dragonlight.cpp
+  drivers/auxiliary/dragonlight.h
+Copyright: 2024, Rick Bassham.
+License: GPL-2+
+
+Files: drivers/auxiliary/dust_cover_simulator.cpp
+  drivers/auxiliary/dust_cover_simulator.h
+  drivers/auxiliary/light_panel_simulator.cpp
+  drivers/auxiliary/light_panel_simulator.h
+Copyright: 2021, 2025, Jasem Mutlaq
+License: LGPL-2
+
+Files: drivers/auxiliary/indi_astrolink4.cpp
+  drivers/auxiliary/indi_astrolink4.h
+  drivers/auxiliary/indi_astrolink4mini2.cpp
+  drivers/auxiliary/indi_astrolink4mini2.h
+Copyright: 2019, 2022, astrojolo.com
+License: LGPL-2
+
+Files: drivers/auxiliary/lpm.cpp
+  drivers/auxiliary/lpm.h
+Copyright: 2019, Christian Liska.
+License: GPL-2+
+
+Files: drivers/auxiliary/myDewControllerPro.cpp
+  drivers/auxiliary/myDewControllerPro.h
+Copyright: 2017-2023, Chemistorge
+License: LGPL-2.1+
+
+Files: drivers/auxiliary/mydcp4esp32.cpp
+  drivers/auxiliary/mydcp4esp32.h
+Copyright: 2023, Stephen Hillier
+ 2019, Alan Townshend
+ 2017-2023, Jarno Paananen
+ 2016, Jasem Mutlaq.
+License: LGPL-2.1+
+
+Files: drivers/auxiliary/pegasus_flatmaster.cpp
+  drivers/auxiliary/pegasus_flatmaster.h
+  drivers/auxiliary/pegasus_uch.cpp
+  drivers/auxiliary/pegasus_uch.h
+Copyright: 2021, 2023, 2024, Chrysikos Efstathios.
+License: GPL-2+
+
+Files: drivers/auxiliary/pegasus_spb.h
+Copyright: 2023, Efstathios Chrysikos.
+License: GPL-2+
+
+Files: drivers/auxiliary/planewave_delta.cpp
+  drivers/auxiliary/planewave_delta.h
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/auxiliary/snapcap.cpp
+Copyright: 2017-2024, Jarno Paananen.
+ 2015, Jasem Mutlaq.
+License: GPL-2+
+
+Files: drivers/auxiliary/snapcap.h
+Copyright: 2017-2024, Jarno Paananen.
+License: GPL-2+
+
+Files: drivers/auxiliary/sqm_simulator.cpp
+  drivers/auxiliary/sqm_simulator.h
+Copyright: 2017, Ralph Rogge.
+License: GPL-2+
+
+Files: drivers/auxiliary/ups.cpp
+  drivers/auxiliary/ups.h
+  drivers/auxiliary/wanderer_cover.cpp
+  drivers/auxiliary/wanderer_cover.h
+Copyright: 2025, J\x{00e9}r\x{00e9}mie Klein.
+License: GPL-2+
+
+Files: drivers/auxiliary/usb_dewpoint.cpp
+  drivers/auxiliary/usb_dewpoint.h
+Copyright: 2017-2023, Jarno Paananen
+License: LGPL-2.1+
+
+Files: drivers/auxiliary/wanderer_cover_v4_ec.cpp
+  drivers/auxiliary/wanderer_cover_v4_ec.h
+  drivers/auxiliary/wanderer_eclipse.cpp
+  drivers/auxiliary/wanderer_eclipse.h
+Copyright: 2024, Frank Wang/J\x{00e9}r\x{00e9}mie Klein.
+License: GPL-2+
+
+Files: drivers/auxiliary/wanderer_dew_terminator.cpp
+  drivers/auxiliary/wanderer_dew_terminator.h
+  drivers/auxiliary/wandererbox_plus_v3.cpp
+  drivers/auxiliary/wandererbox_plus_v3.h
+  drivers/auxiliary/wandererbox_pro_v3.cpp
+  drivers/auxiliary/wandererbox_pro_v3.h
+Copyright: 2024, Frank Wang.
+License: GPL-2+
+
+Files: drivers/ccd/*
+Copyright: 2017-2020, Jasem Mutlaq.
+ 2010, 2016, Gerry Rozema.
+License: LGPL-2
+
+Files: drivers/dome/*
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: drivers/dome/alpaca_dome.cpp
+  drivers/dome/alpaca_dome.h
+Copyright: 2025, J\x{00e9}r\x{00e9}mie Klein.
+License: GPL-2+
+
+Files: drivers/dome/ddw_dome.cpp
+  drivers/dome/ddw_dome.h
+  drivers/dome/scopedome_arduino.cpp
+  drivers/dome/scopedome_arduino.h
+  drivers/dome/scopedome_dome.cpp
+  drivers/dome/scopedome_dome.h
+  drivers/dome/scopedome_sim.cpp
+  drivers/dome/scopedome_sim.h
+  drivers/dome/scopedome_usb21.cpp
+  drivers/dome/scopedome_usb21.h
+Copyright: 2017-2024, Jarno Paananen.
+License: LGPL-2
+
+Files: drivers/dome/dome_script.cpp
+Copyright: 2016, CloudMakers, s. r. o..
+License: LGPL-2
+
+Files: drivers/dome/dome_script.h
+Copyright: 2023, Jasem Mutlaq
+ 2016, CloudMakers, s. r. o..
+License: LGPL-2
+
+Files: drivers/dome/dragonlair.cpp
+  drivers/dome/dragonlair.h
+Copyright: 2024, Rick Bassham.
+License: GPL-2+
+
+Files: drivers/dome/nexdome_beaver.cpp
+  drivers/dome/nexdome_beaver.h
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/dome/universal_ror_client.cpp
+  drivers/dome/universal_ror_client.h
+Copyright: 2012-2020, 2022, 2024, Jasem Mutlaq.
+License: GPL-2+
+
+Files: drivers/filter_wheel/*
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: drivers/filter_wheel/filter_simulator.cpp
+  drivers/filter_wheel/filter_simulator.h
+Copyright: 2010, 2011, Gerry Rozema.
+License: LGPL-2
+
+Files: drivers/filter_wheel/ifwoptec.cpp
+  drivers/filter_wheel/ifwoptec.h
+Copyright: 2016, Philippe Besson.
+License: LGPL-2
+
+Files: drivers/filter_wheel/ioptron_wheel.cpp
+  drivers/filter_wheel/ioptron_wheel.h
+Copyright: 2024, Joe Zhou.
+License: LGPL-2
+
+Files: drivers/filter_wheel/pegasus_indigo.cpp
+  drivers/filter_wheel/pegasus_indigo.h
+Copyright: 2012-2020, 2022, 2024, Jasem Mutlaq.
+License: GPL-2+
+
+Files: drivers/filter_wheel/quantum_wheel.cpp
+  drivers/filter_wheel/quantum_wheel.h
+Copyright: 2016, Radek Kaczorek <rkaczorek AT gmail DOT com>
+License: LGPL-2
+
+Files: drivers/filter_wheel/xagyl_wheel.cpp
+  drivers/filter_wheel/xagyl_wheel.h
+Copyright: 2020, Justin Husted.
+ 2020, Jasem Mutlaq.
+License: LGPL-2
+
+Files: drivers/focuser/*
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/activefocuser.cpp
+  drivers/focuser/activefocuser.h
+  drivers/focuser/activefocuser_utils.cpp
+  drivers/focuser/activefocuser_utils.h
+  drivers/focuser/rbfocus.cpp
+  drivers/focuser/rbfocus.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: drivers/focuser/alluna_tcs2.cpp
+  drivers/focuser/alluna_tcs2.h
+Copyright: 2022, Peter Englmaier.
+License: LGPL-2.1+
+
+Files: drivers/focuser/astromech_focuser.cpp
+  drivers/focuser/astromech_focuser.h
+Copyright: 2019, Christian Liska.
+License: LGPL-2
+
+Files: drivers/focuser/celestron.cpp
+  drivers/focuser/celestron.h
+  drivers/focuser/celestronauxpacket.cpp
+  drivers/focuser/celestronauxpacket.h
+Copyright: 2019, Jasem Mutlaq (mutlaqja@ikarustech.com)
+ 2019, Chris Rowland
+License: LGPL-2.1+
+
+Files: drivers/focuser/deepskydad_af1.cpp
+  drivers/focuser/deepskydad_af1.h
+  drivers/focuser/deepskydad_af2.cpp
+  drivers/focuser/deepskydad_af2.h
+  drivers/focuser/deepskydad_af3.cpp
+  drivers/focuser/deepskydad_af3.h
+Copyright: 2019, Pavle Gartner
+ 2013-2019, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/doc/*
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: drivers/focuser/dreamfocuser.cpp
+  drivers/focuser/dreamfocuser.h
+Copyright: 2016, Piotr Dlugosz
+License: LGPL-2.1+
+
+Files: drivers/focuser/esatto.cpp
+  drivers/focuser/esatto.h
+  drivers/focuser/primalucacommandset.cpp
+  drivers/focuser/primalucacommandset.h
+Copyright: 2014, 2015, 2017, 2018, 2022-2025, Jasem Mutlaq
+License: LGPL-2.1+
+
+Files: drivers/focuser/esattoarco.cpp
+  drivers/focuser/esattoarco.h
+Copyright: 2020-2022, Jasem Mutlaq
+ 2020, Piotr Zyziuk
+License: LGPL-2.1+
+
+Files: drivers/focuser/fcusb.cpp
+  drivers/focuser/fcusb.h
+  drivers/focuser/focus_simulator.cpp
+  drivers/focuser/focus_simulator.h
+  drivers/focuser/perfectstar.cpp
+  drivers/focuser/perfectstar.h
+  drivers/focuser/si_efs.cpp
+  drivers/focuser/si_efs.h
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: drivers/focuser/hitecastrodcfocuser.cpp
+  drivers/focuser/hitecastrodcfocuser.h
+Copyright: 2016, Andy Kirkham.
+License: LGPL-2
+
+Files: drivers/focuser/ieaffocus.cpp
+  drivers/focuser/ieaffocus.h
+Copyright: 2024, Jasem Mutlaq
+ 2013, Paul de Backer (74.0632@gmail.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/lacerta_mfoc.cpp
+  drivers/focuser/lacerta_mfoc.h
+  drivers/focuser/lacerta_mfoc_fmc.h
+Copyright: 2018, Franck Le Rhun.
+ 2018, Christian Liska.
+License: LGPL-2
+
+Files: drivers/focuser/lacerta_mfoc_fmc.cpp
+Copyright: Franck Le Rhun and Christian Liska
+ 2023, Christian Liska.
+License: LGPL-2
+
+Files: drivers/focuser/lakeside.cpp
+  drivers/focuser/lakeside.h
+Copyright: 2017, Phil Shepherd (psjshep@googlemail.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/microtouch.cpp
+  drivers/focuser/microtouch.h
+Copyright: 2016, Marco Peters (mpeters@rzpeters.de)
+ 2013, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/myfocuserpro2.cpp
+  drivers/focuser/myfocuserpro2.h
+Copyright: 2019, Alan Townshend
+ 2013-2019, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/nstep.cpp
+  drivers/focuser/nstep.h
+Copyright: 2019, Jasem Mutlaq.
+License: LGPL-2.1+
+
+Files: drivers/focuser/onfocus.cpp
+  drivers/focuser/onfocus.h
+Copyright: 2018, Paul de Backer (74.0632@gmail.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/pegasus_focuscube.cpp
+  drivers/focuser/pegasus_focuscube.h
+  drivers/focuser/pegasus_focuscube3.cpp
+  drivers/focuser/pegasus_focuscube3.h
+  drivers/focuser/pegasus_prodigyMF.cpp
+  drivers/focuser/pegasus_prodigyMF.h
+  drivers/focuser/pegasus_scopsoag.cpp
+  drivers/focuser/pegasus_scopsoag.h
+Copyright: 2021, 2023, 2024, Chrysikos Efstathios.
+License: GPL-2+
+
+Files: drivers/focuser/pinefeat_cef.cpp
+  drivers/focuser/pinefeat_cef.h
+Copyright: 2025, Pinefeat LLP (support@pinefeat.co.uk)
+ 2013-2019, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/rainbowRSF.cpp
+  drivers/focuser/rainbowRSF.h
+Copyright: 2020, Abdulaziz Bouland (boulandab@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/focuser/robofocus.cpp
+  drivers/focuser/robofocus.h
+Copyright: 2006, Markus Wildi (markus.wildi@datacomm.ch)
+License: LGPL-2.1+
+
+Files: drivers/focuser/sestosenso2.cpp
+Copyright: 2020, Piotr Zyziuk
+ 2020, Jasem Mutlaq (Added Esatto support)
+License: LGPL-2.1+
+
+Files: drivers/focuser/sestosenso2.h
+Copyright: 2020, Piotr Zyziuk
+License: LGPL-2.1+
+
+Files: drivers/focuser/smartfocus.cpp
+  drivers/focuser/smartfocus.h
+Copyright: 2015, 2020, Camiel Severijns.
+License: LGPL-2
+
+Files: drivers/focuser/teenastro.cpp
+  drivers/focuser/teenastro.h
+Copyright: 2021, Markus Noga
+License: LGPL-2.1+
+
+Files: drivers/focuser/usbfocusv3.cpp
+  drivers/focuser/usbfocusv3.h
+Copyright: 2018-2023, Jarno Paananen
+ 2016, G. Schmidt
+License: LGPL-2.1+
+
+Files: drivers/io/*
+Copyright: 2014, 2015, 2017, 2018, 2022-2025, Jasem Mutlaq
+License: LGPL-2.1+
+
+Files: drivers/receiver/*
+Copyright: 2017, Ilia Platone - Jasem Mutlaq
+License: LGPL-2+
+
+Files: drivers/receiver/receiver_simulator.cpp
+  drivers/receiver/receiver_simulator.h
+Copyright: 2017, Ilia Platone
+License: LGPL-2+
+
+Files: drivers/rotator/*
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/rotator/deepskydad_fr1.cpp
+  drivers/rotator/deepskydad_fr1.h
+  drivers/rotator/pegasus_falcon.cpp
+  drivers/rotator/pegasus_falcon.h
+Copyright: 2012-2020, 2022, 2024, Jasem Mutlaq.
+License: GPL-2+
+
+Files: drivers/rotator/integra.cpp
+  drivers/rotator/integra.h
+Copyright: 2017-2025, Hans Lambermont
+License: LGPL-2.1+
+
+Files: drivers/rotator/nframe.cpp
+Copyright: 2019, Jasem Mutlaq.
+License: LGPL-2.1+
+
+Files: drivers/rotator/pegasus_falconv2.cpp
+  drivers/rotator/pegasus_falconv2.h
+Copyright: 2021, 2023, 2024, Chrysikos Efstathios.
+License: GPL-2+
+
+Files: drivers/rotator/wanderer_rotator_base.cpp
+  drivers/rotator/wanderer_rotator_base.h
+  drivers/rotator/wanderer_rotator_lite.cpp
+  drivers/rotator/wanderer_rotator_lite.h
+  drivers/rotator/wanderer_rotator_lite_v2.cpp
+  drivers/rotator/wanderer_rotator_lite_v2.h
+  drivers/rotator/wanderer_rotator_mini.cpp
+  drivers/rotator/wanderer_rotator_mini.h
+Copyright: 2025, Frank Wang & J\x{00e9}r\x{00e9}mie Klein.
+License: GPL-2+
+
+Files: drivers/skeleton/focuser_driver.cpp
+  drivers/skeleton/focuser_driver.h
+Copyright: 2019, Jasem Mutlaq.
+License: LGPL-2.1+
+
+Files: drivers/skeleton/mount_driver.cpp
+  drivers/skeleton/mount_driver.h
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: drivers/spectrograph/*
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/spectrograph/shelyak/*
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: drivers/spectrograph/shelyak/indi_shelyak_usis.cpp
+  drivers/spectrograph/shelyak/indi_shelyak_usis.h
+Copyright: 2022, Etienne Cochard.
+License: GPL-2+
+
+Files: drivers/telescope/*
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/telescope/astrotrac.cpp
+  drivers/telescope/astrotrac.h
+  drivers/telescope/dsc.cpp
+  drivers/telescope/dsc.h
+  drivers/telescope/paramount.cpp
+  drivers/telescope/paramount.h
+  drivers/telescope/planewave_mount.cpp
+  drivers/telescope/planewave_mount.h
+  drivers/telescope/skycommander.cpp
+  drivers/telescope/skycommander.h
+  drivers/telescope/synscandriver.cpp
+  drivers/telescope/synscandriver.h
+  drivers/telescope/telescope_simulator.cpp
+  drivers/telescope/telescope_simulator.h
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: drivers/telescope/celestrondriver.cpp
+  drivers/telescope/celestrondriver.h
+Copyright: 2017, Juan Menendez
+ 2015, Jasem Mutlaq
+License: LGPL-2.1+
+
+Files: drivers/telescope/crux_mount.cpp
+  drivers/telescope/crux_mount.h
+Copyright: 2020, Park Suyoung <hparksy@gmail.com>.
+License: LGPL-2
+
+Files: drivers/telescope/eq500x.cpp
+  drivers/telescope/eq500x.h
+Copyright: 2019, Eric Dejouhanet (eric.dejouhanet@gmail.com)
+License: LGPL-2.1+
+
+Files: drivers/telescope/eq500x.md
+  drivers/telescope/skywatcherAPI.cpp
+  drivers/telescope/skywatcherAPI.h
+  drivers/telescope/skywatcherAPIMount.cpp
+  drivers/telescope/skywatcherAPIMount.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: drivers/telescope/ieqdriverbase.cpp
+  drivers/telescope/ieqdriverbase.h
+  drivers/telescope/ieqpro.cpp
+  drivers/telescope/ieqpro.h
+  drivers/telescope/ieqprolegacy.cpp
+  drivers/telescope/ieqprolegacy.h
+  drivers/telescope/ieqprolegacydriver.cpp
+  drivers/telescope/ieqprolegacydriver.h
+  drivers/telescope/ioptronv3.cpp
+  drivers/telescope/ioptronv3.h
+  drivers/telescope/ioptronv3driver.cpp
+  drivers/telescope/ioptronv3driver.h
+  drivers/telescope/lx200am5.cpp
+  drivers/telescope/lx200am5.h
+  drivers/telescope/lx200ap_gtocp2.cpp
+  drivers/telescope/lx200ap_gtocp2.h
+  drivers/telescope/lx200ap_v2.h
+  drivers/telescope/lx200gotonova.cpp
+  drivers/telescope/lx200gotonova.h
+  drivers/telescope/lx200zeq25.cpp
+  drivers/telescope/lx200zeq25.h
+Copyright: 2014, 2015, 2017, 2018, 2022-2025, Jasem Mutlaq
+License: LGPL-2.1+
+
+Files: drivers/telescope/ioptronHC8406.cpp
+  drivers/telescope/ioptronHC8406.h
+Copyright: 2017, Nacho Mas. Base on GotoNova driverJasem Mutlaq
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200_10micron.cpp
+  drivers/telescope/lx200_10micron.h
+Copyright: 2017-2025, Hans Lambermont
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200_OnStep.h
+Copyright: 2003, Jasem Mutlaq (mutlaqja@ikarustech.com)-2021, (Contributors, above)
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200_OpenAstroTech.cpp
+  drivers/telescope/lx200_OpenAstroTech.h
+Copyright: 2021, Anjo Krank
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200_pegasus_nyx101.cpp
+  drivers/telescope/lx200_pegasus_nyx101.h
+Copyright: 2021, 2023, 2024, Chrysikos Efstathios.
+License: GPL-2+
+
+Files: drivers/telescope/lx200ap_v2.cpp
+Copyright: 2022, Hy Murveit
+ 2020, indilib.org,Markus Wildi
+ 2014, Jasem Mutlaq, Mike Fulbright
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200apdriver.cpp
+  drivers/telescope/lx200apdriver.h
+Copyright: 2007, Markus Wildi
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200gemini.cpp
+  drivers/telescope/lx200gemini.h
+Copyright: 2018, Eric Vickery
+ 2017, Jasem Mutlaq
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200pulsar2.cpp
+Copyright: 2021, James Lancaster
+ 2016, 2017, Jasem Mutlaq and Camiel Severijns
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200pulsar2.h
+Copyright: 2016, 2017, Jasem Mutlaq and Camiel Severijns
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200ss2000pc.cpp
+  drivers/telescope/lx200ss2000pc.h
+Copyright: 2015, Camiel Severijns
+License: LGPL-2.1+
+
+Files: drivers/telescope/lx200telescope.cpp
+Copyright: 2021, James Lancaster
+ 2003-2018, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/telescope/magellan1.h
+  drivers/telescope/magellandriver.h
+Copyright: 2011, Onno Hommes (ohommes@alumni.cmu.edu)
+License: LGPL-2.1+
+
+Files: drivers/telescope/pmc8.cpp
+  drivers/telescope/pmc8.h
+  drivers/telescope/pmc8driver.cpp
+  drivers/telescope/pmc8driver.h
+Copyright: 2023, / 2019, Karl Rees, Copyright (C) 2019-2023, / 2017, Michael Fulbright
+License: LGPL-2.1+
+
+Files: drivers/telescope/scopesim_helper.cpp
+  drivers/telescope/scopesim_helper.h
+Copyright: 2020, Chris Rowland <chris.rowland@cherryfield.me.uk>
+License: GPL-2+
+
+Files: drivers/telescope/synscandriverlegacy.cpp
+  drivers/telescope/synscandriverlegacy.h
+  drivers/telescope/synscanmount.cpp
+  drivers/telescope/synscanmountlegacy.cpp
+  drivers/telescope/temmadriver.cpp
+  drivers/telescope/temmadriver.h
+Copyright: 2017-2020, Jasem Mutlaq.
+ 2010, 2016, Gerry Rozema.
+License: LGPL-2
+
+Files: drivers/telescope/telescope_script.cpp
+  drivers/telescope/telescope_script.h
+Copyright: 2016, CloudMakers, s. r. o..
+License: LGPL-2
+
+Files: drivers/video/*
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/video/lx/*
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: drivers/video/stvdriver.h
+Copyright: 2006, Markus Wildi, markus.wildi@datacomm.ch
+License: GPL-2+ and/or LGPL-2.1+
+
+Files: drivers/video/v4l2driver.h
+Copyright: 2013, Geehalel (geehalel@gmail.com)
+ 2003-2005, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: drivers/weather/*
+Copyright: 2012-2020, 2022, 2024, Jasem Mutlaq.
+License: GPL-2+
+
+Files: drivers/weather/aagsolo.cpp
+  drivers/weather/aagsolo.h
+Copyright: 2025, Peter Englmaier.
+License: GPL-2+
+
+Files: drivers/weather/weather_safety_alpaca.cpp
+  drivers/weather/weather_safety_alpaca.h
+Copyright: 2025, J\x{00e9}r\x{00e9}mie Klein.
+License: GPL-2+
+
+Files: drivers/weather/weather_safety_proxy.cpp
+  drivers/weather/weather_safety_proxy.h
+Copyright: 2019, Hans Lambermont.
+License: GPL-2+
+
+Files: drivers/weather/weatherflow.cpp
+  drivers/weather/weatherflow.h
+Copyright: 2024, WeatherFlow Tempest Weather Driver
+License: GPL-2+
+
+Files: examples/tutorial_four/*
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: examples/tutorial_six/*
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: indiserver/*
+Copyright: 2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+License: LGPL-2.1+
+
+Files: integs/*
+Copyright: 2022, Ludovic Pollet.
+License: LGPL-2
+
+Files: integs/ProcessController.cpp
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: libs/*
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/alignment/*
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: libs/alignment/ConvexHull.cpp
+  libs/alignment/ConvexHull.h
+Copyright: 2000, Joseph ORourke. It may be freely
+License: LGPL-2.1+
+
+Files: libs/alignment/NearestMathPlugin.cpp
+  libs/alignment/NearestMathPlugin.h
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/dsp/*
+Copyright: 2017-2022, Ilia Platone
+License: LGPL-3+
+
+Files: libs/eventloop/*
+Copyright: 2003-2006, Elwood C. Downey
+License: LGPL-2.1+
+
+Files: libs/fpack/*
+Copyright: William D. Pence <https://heasarc.gsfc.nasa.gov/fitsio/>
+ R. Seaman
+License: LGPL-2.1+
+
+Files: libs/fpack/fpack.c
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: libs/hid/*
+Copyright: 2009, Alan Ott, Signal 11 Software (8/22/2009)
+License: GPL-2+
+
+Files: libs/hid/hid_mac.c
+Copyright: 2009, Alan Ott, Signal 11 Software (7/3/2010)
+License: GPL-2+
+
+Files: libs/hid/hidtest.cpp
+Copyright: 2009
+License: LGPL-2.1+
+
+Files: libs/httplib/*
+Copyright: 2023, Yuji Hirose.
+License: LGPL-2.1+
+
+Files: libs/indiabstractclient/*
+Copyright: 2022, Pawel Soja <kernel32.pl@gmail.com>
+ 2016, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indibase/*
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: libs/indibase/connectionplugins/*
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indibase/connectionplugins/NetIF.hpp
+Copyright: 2019, Battelle Memorial Institute; Lawrence Livermore National Security, LLC; Alliance for Sustainable
+License: BSD-3-clause
+
+Files: libs/indibase/connectionplugins/ttybase.cpp
+  libs/indibase/connectionplugins/ttybase.h
+Copyright: 2018, Jasem Mutlaq
+ 2011, Wildi Markus
+License: LGPL-2.1+
+
+Files: libs/indibase/defaultdevice.cpp
+  libs/indibase/defaultdevice.h
+  libs/indibase/defaultdevice_p.h
+  libs/indibase/indiccdchip.cpp
+  libs/indibase/indiccdchip.h
+  libs/indibase/indidome.cpp
+  libs/indibase/indidome.h
+  libs/indibase/indifocuser.cpp
+  libs/indibase/indifocuser.h
+  libs/indibase/indirotator.cpp
+  libs/indibase/indirotator.h
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indibase/dsp/*
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indibase/dsp/dspinterface.h
+  libs/indibase/dsp/manager.h
+  libs/indibase/dsp/transforms.h
+Copyright: 2010, 2017, Ilia Platone, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indibase/fitskeyword.cpp
+  libs/indibase/fitskeyword.h
+Copyright: 2023, Dusan Poizl
+License: LGPL-2.1+
+
+Files: libs/indibase/indiccd.cpp
+  libs/indibase/indiccd.h
+Copyright: 2013, CloudMakers, s. r. o.
+ 2010-2018, Jasem Mutlaq.
+ 2010, 2011, Gerry Rozema.
+ 2006-2010, Craig Stark.
+License: LGPL-2
+
+Files: libs/indibase/indicontroller.cpp
+  libs/indibase/indicontroller.h
+Copyright: 2013, Jasem Mutlaq <mutlaqja@ikarustech.com>
+License: LGPL-2
+
+Files: libs/indibase/indicorrelator.cpp
+  libs/indibase/indicorrelator.h
+  libs/indibase/indidetector.cpp
+  libs/indibase/indidetector.h
+  libs/indibase/indireceiver.cpp
+  libs/indibase/indireceiver.h
+  libs/indibase/indisensorinterface.cpp
+  libs/indibase/indisensorinterface.h
+  libs/indibase/indispectrograph.cpp
+  libs/indibase/indispectrograph.h
+Copyright: 2010, 2017, Ilia Platone, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indibase/indidriver.c
+Copyright: 2020, Pawel Soja <kernel32.pl@gmail.com>
+ 2003-2020, Jasem Mutlaq
+ 2003-2006, Elwood C. Downey
+License: LGPL-2.1+
+
+Files: libs/indibase/indidriver.h
+Copyright: 2003-2015, Jasem Mutlaq
+ 2003-2006, Elwood C. Downey
+License: LGPL-2.1+
+
+Files: libs/indibase/indidriverio.c
+  libs/indibase/indidriverio.h
+Copyright: 2022, Ludovic Pollet
+License: LGPL-2.1+
+
+Files: libs/indibase/indidrivermain.c
+Copyright: 2003-2006, Elwood C. Downey
+License: LGPL-2.1+
+
+Files: libs/indibase/indifilterwheel.cpp
+  libs/indibase/indifilterwheel.h
+Copyright: 2010, 2011, Gerry Rozema.
+License: LGPL-2
+
+Files: libs/indibase/indigps.cpp
+  libs/indibase/indigps.h
+  libs/indibase/indiweather.cpp
+  libs/indibase/indiweather.h
+Copyright: 2012-2020, 2022, 2024, Jasem Mutlaq.
+License: GPL-2+
+
+Files: libs/indibase/indilogger.cpp
+  libs/indibase/indilogger.h
+Copyright: 2012, Evidence Srl - www.evidence.eu.com
+License: LGPL-2
+
+Files: libs/indibase/inditelescope.cpp
+  libs/indibase/inditelescope.h
+Copyright: 2011, Gerry Rozema, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indibase/indiusbdevice.cpp
+  libs/indibase/indiusbdevice.h
+Copyright: 2013, CloudMakers, s. r. o.
+ 2011, Gerry Rozema.
+License: LGPL-2
+
+Files: libs/indibase/pid/*
+Copyright: 2021, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2020, Philip Salmony
+ 2019, Bradley J. Snyder <snyder.bradleyj@gmail.com>
+License: Expat
+
+Files: libs/indibase/stream/*
+Copyright: 2020, Pawel Soja <kernel32.pl@gmail.com>
+ 2015, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2014, geehalel <geehalel@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/stream/ccvt.h
+Copyright: 2002, Nemosoft Unv.
+License: BSD-2-clause and/or GPL-2+
+
+Files: libs/indibase/stream/ccvt_c2.c
+Copyright: 2001, Tony Hague <no.email@noemail.com>
+License: GPL-2+
+
+Files: libs/indibase/stream/ccvt_misc.c
+  libs/indibase/stream/ccvt_types.h
+Copyright: 2002, Nemosoft Unv.
+License: GPL-2+
+
+Files: libs/indibase/stream/encoder/*
+Copyright: 2005, 2017, Jasem Mutlaq <mutlaqja@ikarustech.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/stream/encoder/encoderinterface.cpp
+Copyright: 2017, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2014, geehalel <geehalel@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/stream/fpsmeter.cpp
+  libs/indibase/stream/fpsmeter.h
+  libs/indibase/stream/uniquequeue.h
+Copyright: 2020-2022, Pawel Soja <kernel32.pl@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/stream/jpegutils.c
+Copyright: 2008, Angel Carpintero <ack@telefonica.net>
+ 2001, pHilipp Zabel <pzabel@gmx.de>
+ 1999, Rainer Johanni <Rainer@Johanni.de>
+License: GPL-2+
+
+Files: libs/indibase/stream/jpegutils.h
+Copyright: 2008, Angel Carpintero <ack@telenfonica.net>
+ 2001, pHilipp Zabel <pzabel@gmx.de>
+ 1999, Rainer Johanni <Rainer@Johanni.de>
+License: LGPL-2.1+
+
+Files: libs/indibase/stream/recorder/*
+Copyright: 2017, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2014, geehalel <geehalel@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/stream/recorder/recorderinterface.h
+  libs/indibase/stream/recorder/serrecorder.cpp
+  libs/indibase/stream/recorder/serrecorder.h
+Copyright: 2014, geehalel <geehalel@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/stream/recorder/theorarecorder.cpp
+  libs/indibase/stream/recorder/theorarecorder.h
+Copyright: 2005, 2017, Jasem Mutlaq <mutlaqja@ikarustech.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/thread/*
+Copyright: 2020-2022, Pawel Soja <kernel32.pl@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/timer/*
+Copyright: 2020-2022, Pawel Soja <kernel32.pl@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/webcam/*
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: libs/indibase/webcam/pwc-ioctl.h
+Copyright: 2004-2006, Luc Saillard (luc@saillard.org)
+ 2001-2004, Nemosoft Unv.
+License: GPL-2+
+
+Files: libs/indibase/webcam/v4l2_base.cpp
+Copyright: 2005, 2017, Jasem Mutlaq <mutlaqja@ikarustech.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/webcam/v4l2_base.h
+Copyright: 2013, Geehalel (geehalel@gmail.com)
+ 2005, Jasem Mutlaq <mutlaqja@ikarustech.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/webcam/v4l2_decode/*
+Copyright: 2014, geehalel <geehalel@gmail.com>
+ 2005, Jasem Mutlaq <mutlaqja@ikarustech.com>
+License: LGPL-2.1+
+
+Files: libs/indibase/webcam/vcvt.h
+Copyright: 2001, Nemosoft Unv. <nemosoft@smcc.demon.nl>
+License: GPL-2+
+
+Files: libs/indiclient/baseclient_p.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: libs/indiclientqt/baseclientqt_p.h
+Copyright: 2022, Pawel Soja <kernel32.pl@gmail.com>
+ 2016, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indicore/*
+Copyright: 2003-2006, Elwood C. Downey
+License: LGPL-2.1+
+
+Files: libs/indicore/base64_luts.h
+Copyright: 2016, Rumen G. Bogdanovski
+License: LGPL-2.1+
+
+Files: libs/indicore/indicom.c
+  libs/indicore/indicom.h
+Copyright: 2003, Jason Harris (jharris@30doradus.org)
+License: LGPL-2.1+
+
+Files: libs/indicore/indidevapi.c
+  libs/indicore/sharedblob.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: libs/indicore/indililxml.h
+  libs/indicore/indiuserio.c
+  libs/indicore/indiuserio.h
+  libs/indicore/userio.c
+  libs/indicore/userio.h
+Copyright: 2020-2022, Pawel Soja <kernel32.pl@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indicore/indiutility.cpp
+  libs/indicore/indiutility.h
+Copyright: 2020, Pawel Soja <kernel32.pl@gmail.com>
+ 2015, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2014, geehalel <geehalel@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indicore/libastro.cpp
+  libs/indicore/libastro.h
+Copyright: 2021, Jasem Mutlaq
+ 2020, Chris Rowland
+License: LGPL-2.1+
+
+Files: libs/indicore/sharedblob.c
+Copyright: 2022, Ludovic Pollet
+License: LGPL-2.1+
+
+Files: libs/indicore/sharedblob_parse.cpp
+  libs/indicore/sharedblob_parse.h
+Copyright: 2022, Ludovic Pollet.
+License: LGPL-2
+
+Files: libs/indicore/shm_open_anon.c
+  libs/indicore/shm_open_anon.h
+Copyright: 2019, Lassi Kortela
+License: ISC
+
+Files: libs/indidevice/indibase.cpp
+  libs/indidevice/indibase.h
+  libs/indidevice/parentdevice.cpp
+  libs/indidevice/parentdevice.h
+  libs/indidevice/parentdevice_p.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: libs/indidevice/property/*
+Copyright: 2020-2022, Pawel Soja <kernel32.pl@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/indidevice/property/indiproperty.cpp
+  libs/indidevice/property/indiproperty.h
+  libs/indidevice/property/indiproperty_p.h
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: libs/indidevice/watchdeviceproperty.cpp
+  libs/indidevice/watchdeviceproperty.h
+Copyright: 2022, Pawel Soja <kernel32.pl@gmail.com>
+ 2011, Jasem Mutlaq.
+License: LGPL-2.1+
+
+Files: libs/indijson.hpp
+Copyright: 2013-2022, Niels Lohmann <http://nlohmann.me>.
+License: CC0-1.0 and/or Expat
+
+Files: libs/indimacros.h
+Copyright: 2020-2022, Pawel Soja <kernel32.pl@gmail.com>
+License: LGPL-2.1+
+
+Files: libs/inicpp.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: Expat
+
+Files: libs/locale_compat.h
+Copyright: 2017, Andy Galasso
+License: LGPL-2.1+
+
+Files: libs/modbus/*
+Copyright: 2024, Valerio De Benedetto (@debevv)
+License: Expat
+
+Files: libs/modbus/platform.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: libs/sockets/*
+Copyright: 2020-2022, Pawel Soja <kernel32.pl@gmail.com>
+License: LGPL-2.1+
+
+Files: obsolete/*
+Copyright: 2011, Nacho Mas (mas.ignacio@gmail.com). Only litle changes
+License: LGPL-2.1+
+
+Files: obsolete/celestronprotocol.c
+Copyright: 2003, John Kielkopf
+License: LGPL-2.1+
+
+Files: obsolete/celestronprotocol.h
+  obsolete/skywatcherAltAzSimple.cpp
+  obsolete/skywatcherAltAzSimple.h
+Copyright: 2006, 2007, Markus Wildi <markus.wildi@datacomm.ch>
+ 2005, Gaetano Vocca <yagvoc-web@yahoo.it>
+ 2005, Douglas Philipson <dougp@intermind.net>
+ 2005, Bruce Bockius <bruceb@WhiteAntelopeSoftware.com>
+ 2004, Francois Meyer <dulle@free.fr>
+ 2003-2007, Elwood C. Downey <ecdowney@clearskyinstitute.com>
+ 2003-2007, 2010, Jasem Mutlaq <mutlaqja@ikarustech.com>
+ 2003, John Kielkopf <kielkopf@louisville.edu>
+ 2003, Jason Harris <jharris@30doradus.org>
+ 1996-1998, Patrick Reynolds
+License: LGPL-2.1+
+
+Files: obsolete/fli_wheel.c
+Copyright: 2005, Gaetano Vocca (yagvoc-web AT yahoo DOT it)
+License: LGPL-2.1+
+
+Files: obsolete/focusmaster.cpp
+  obsolete/focusmaster.h
+Copyright: 2011-2025, Jasem Mutlaq.
+License: LGPL-2
+
+Files: obsolete/intelliscope.c
+Copyright: 2005, Douglas Philipson (dougp AT intermind DOT net)
+License: LGPL-2.1+
+
+Files: obsolete/lx200ap.cpp
+Copyright: 2020, indilib.org,Markus Wildi
+ 2014, Jasem Mutlaq, Mike Fulbright
+License: LGPL-2.1+
+
+Files: obsolete/lx200ap.h
+  obsolete/lx200ap_gtocp2.cpp
+  obsolete/lx200ap_gtocp2.h
+  obsolete/lx200ap_legacy.cpp
+  obsolete/lx200ap_legacy.h
+Copyright: 2014, 2015, 2017, 2018, 2022-2025, Jasem Mutlaq
+License: LGPL-2.1+
+
+Files: obsolete/lx200aplib.h
+Copyright: 2007, Markus Wildi
+License: LGPL-2.1+
+
+Files: obsolete/magellan1.cpp
+  obsolete/magellandriver.c
+Copyright: 2011, Onno Hommes (ohommes@alumni.cmu.edu)
+License: LGPL-2.1+
+
+Files: obsolete/skycommander.c
+Copyright: 2003-2025, Jasem Mutlaq (mutlaqja@ikarustech.com)
+License: LGPL-2.1+
+
+Files: obsolete/stv.c
+  obsolete/stvdriver.c
+Copyright: 2006, Markus Wildi, markus.wildi@datacomm.ch
+License: LGPL-2.1+
+
+Files: obsolete/trutech_wheel.c
+Copyright: 2006, Jasem Mutlaq (mutlaqja AT ikarustech DOT com)
+License: LGPL-2.1+
+
+Files: obsolete/wunderground.cpp
+  obsolete/wunderground.h
+Copyright: 2012-2020, 2022, 2024, Jasem Mutlaq.
+License: GPL-2+
+
+Files: test/alignment/test_alignment.cpp
+Copyright: 2020, Rick Bassham.
+License: LGPL-2
+
+Files: test/core/*
+Copyright: 2020, Eric Dejouhanet.
+License: LGPL-2
+
+Files: test/core/test_base64.cpp
+Copyright: 2016, Andy Kirkham.
+License: LGPL-2
+
+Files: test/weather/*
+Copyright: 2024, WeatherFlow Tempest Weather Driver Tests
+License: GPL-2+
+
+License: BSD-2-clause
+ Please fill license BSD-2-clause and/or GPL-2+ from header of 
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ .
+ 1. Redistributions of source code must retain the copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ 3. The name of the author may not be used to endorse or promote products 
+    derived from this software without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR ``AS IS'' AND ANY EXPRESS OR
+ IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+ OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.
+ IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DIRECT, INDIRECT,
+ INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT
+ NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+ THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ To the extent possible under law, the author(s) have dedicated all
+ copyright and related and neighboring rights to this software to the public
+ domain worldwide. This software is distributed without any warranty.
+ On Debian systems, the complete text of the CC0 license, version 1.0,
+ can be found in /usr/share/common-licenses/CC0-1.0.
+
+License: Expat
+ The MIT License
+ .
+ Permission is hereby granted, free of charge, to any person
+ obtaining a copy of this software and associated
+ documentation files (the "Software"), to deal in the Software
+ without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense,
+ and/or sell copies of the Software, and to permit persons to
+ whom the Software is furnished to do so, subject to the
+ following conditions:
+ .
+ The above copyright notice and this permission notice shall
+ be included in all copies or substantial portions of the
+ Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT
+ WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+ INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR
+ PURPOSE AND NONINFRINGEMENT. IN NO EVENT
+ SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
+ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete texts of the GNU General Public Licenses
+ version 2 and 3 can be found in `/usr/share/common-licenses/GPL-2' and
+ `/usr/share/common-licenses/GPL-3'.
+
+License: ISC
+ The ISC License
+ .
+ Copyright (c) 2025 by the copyright holder
+ .
+ Permission to use, copy, modify, and/or distribute this software for any
+ purpose with or without fee is hereby granted, provided that the above
+ copyright notice and this permission notice appear in all copies.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+ WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
+ MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
+ ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+ WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN
+ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
+ OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
+
+License: LGPL-2
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Library General Public License as published by the
+ Free Software Foundation; version 2 of the License.
+ On Debian systems, the complete text of version 2 of the GNU Library
+ General Public License can be found in '/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public License
+ version 2 can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as published by the
+ Free Software Foundation; version 2.1 of the License.
+ On Debian systems, the complete text of version 2.1 of the GNU Lesser
+ General Public License can be found in '/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-2.1+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2.1 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public License
+ version 2.1 can be found in `/usr/share/common-licenses/LGPL-2.1'.
+
+License: LGPL-3+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU Lesser General Public License as published by the
+ Free Software Foundation; version 3 of the License, or (at
+ your option) any later version.
+ On Debian systems, the complete text of version 3 of the GNU Lesser
+ General Public License can be found in '/usr/share/common-licenses/LGPL-3'.
