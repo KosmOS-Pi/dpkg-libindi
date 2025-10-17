@@ -1,5 +1,8 @@
-cmake_minimum_required(VERSION 3.13)
+cmake_minimum_required(VERSION 3.18)
 project(indidriver C CXX)
+if(CMAKE_VERSION VERSION_GREATER_EQUAL 3.31)
+    cmake_policy(SET CMP0177 NEW)
+endif()
 
 include_directories(.)
 include_directories(timer)
@@ -16,6 +19,7 @@ list(APPEND ${PROJECT_NAME}_LIBS
     dsp
     fpack
     hid
+    AlignmentDriver
     ${USB1_LIBRARIES}
     ${NOVA_LIBRARIES}
     ${CMAKE_THREAD_LIBS_INIT}
@@ -140,6 +144,7 @@ list(APPEND ${PROJECT_NAME}_SOURCES
     indifocuserinterface.cpp
     indigpsinterface.cpp
     indiweatherinterface.cpp
+    indiimuinterface.cpp
     indifocuser.cpp
     indirotator.cpp
     indiusbdevice.cpp
@@ -150,6 +155,7 @@ list(APPEND ${PROJECT_NAME}_SOURCES
     indioutputinterface.cpp
     indidome.cpp
     indigps.cpp
+    indiimu.cpp        
     indiweather.cpp
     indidustcapinterface.cpp
     indilightboxinterface.cpp
@@ -158,14 +164,13 @@ list(APPEND ${PROJECT_NAME}_SOURCES
     connectionplugins/connectioninterface.cpp
     connectionplugins/connectionserial.cpp
     connectionplugins/connectiontcp.cpp
+    connectionplugins/connectioni2c.cpp
     dsp/manager.cpp
     dsp/dspinterface.cpp
     dsp/transforms.cpp
     dsp/convolution.cpp
     pid/pid.cpp
     fitskeyword.cpp
-
-    # connectionplugins/ttybase.cpp
 )
 
 # Headers
@@ -202,15 +207,12 @@ list(APPEND ${PROJECT_NAME}_HEADERS
     indiweather.h
     indilogger.h
     indicontroller.h
+    indiimuinterface.h
+    indiimu.h
     indiusbdevice.h
     fitskeyword.h
 )
 
-# Private Headers
-list(APPEND ${PROJECT_NAME}_PRIVATE_HEADERS
-
-    # TODO
-)
 
 # If we build a shared library, we link other build products to it
 # If we do not build a shared library, we link the static library
@@ -254,6 +256,7 @@ if(TRUE)
         connectionplugins/connectioninterface.h
         connectionplugins/connectionserial.h
         connectionplugins/connectiontcp.h
+        connectionplugins/connectioni2c.h
         DESTINATION ${INCLUDE_INSTALL_DIR}/libindi/connectionplugins
         COMPONENT Devel
     )
@@ -273,7 +276,7 @@ if(INDI_BUILD_STATIC)
     add_library(${TARGET_STATIC} STATIC)
 
     target_link_libraries(${TARGET_STATIC} ${TARGET_OBJECT} ${${PROJECT_NAME}_LIBS})
-    target_include_directories(${TARGET_STATIC} PUBLIC .)
+    target_include_directories(${TARGET_STATIC} PUBLIC . timer thread stream alignment)
 
     set_target_properties(${TARGET_STATIC} PROPERTIES
         VERSION ${CMAKE_INDI_VERSION_STRING}
@@ -291,7 +294,7 @@ if(INDI_BUILD_SHARED)
     add_library(${TARGET_SHARED} SHARED)
 
     target_link_libraries(${TARGET_SHARED} PUBLIC ${TARGET_OBJECT} ${${PROJECT_NAME}_LIBS})
-    target_include_directories(${TARGET_SHARED} PUBLIC .)
+    target_include_directories(${TARGET_SHARED} PUBLIC . timer thread stream alignment)
 
     set_target_properties(${TARGET_SHARED} PROPERTIES
         VERSION ${CMAKE_INDI_VERSION_STRING}
