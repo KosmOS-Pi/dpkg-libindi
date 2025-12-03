@@ -1,3 +1,9 @@
+libindi (2.1.7+ds1-1) bookworm; urgency=medium
+
+  * Update to INDI v2.1.7.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Wed, 03 Dec 2025 13:04:18 +0100
+
 libindi (2.1.6+ds1-1) bookworm; urgency=low
 
   * Update to INDI v2.1.6.
