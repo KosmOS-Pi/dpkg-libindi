@@ -1621,3 +1621,4 @@ macosx/README.txt -text
 *.bin binary
 *.img binary
 *.dylib binary
+debian/** merge=ours
