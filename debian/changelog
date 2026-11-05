@@ -1,0 +1,30 @@
+libindi (2.2.5+kosmos-1~deb13) trixie; urgency=medium
+
+  * Update to INDI 2.2.5, on trixie.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Thu, 05 Nov 2026 16:20:12 +0100
+
+libindi (2.1.7+ds1-1) bookworm; urgency=medium
+
+  * Update to INDI v2.1.7.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Wed, 03 Dec 2025 13:04:18 +0100
+
+libindi (2.1.6+ds1-1) bookworm; urgency=low
+
+  * Update to INDI v2.1.6.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Fri, 17 Oct 2025 15:13:02 +0200
+
+libindi (2.1.5.1+ds1-1) bookworm; urgency=medium
+
+  * Update to INDI v2.1.5.1.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Tue, 30 Sep 2025 16:47:17 +0200
+
+libindi (2.1.5+ds1-1) bookworm; urgency=low
+
+  * Repackage INDI v2.1.5 for bookworm.
+
+ -- Matteo Piscitelli <matteo@matteopiscitelli.it>  Sat, 16 Aug 2025 14:54:04 +0200
+
